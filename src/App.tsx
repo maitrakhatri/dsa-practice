@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import SyntaxChecker from "./components/excercise/SyntaxChecker";
 import Home from "./Home";
 import { Helmet } from "react-helmet";
+import DateIdeaGenerator from "./components/excercise/DateIdeaGenerator";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/syntaxChecker" element={<SyntaxChecker />} />
+        <Route path="/dateIdea" element={<DateIdeaGenerator />} />
       </Routes>
       <Footer />
     </div>
