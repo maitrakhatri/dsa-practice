@@ -1,0 +1,7 @@
+.syntax-checker {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
