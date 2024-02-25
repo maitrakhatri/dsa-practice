@@ -21,7 +21,6 @@ function App() {
           property="og:description"
           content="maitra is learning dsa and building cool stuff"
         />
-        <meta property="og:image" content="../public/maitra_learns_dsa.jpg" />
         <meta
           property="og:url"
           content="https://maitra-learns-dsa.netlify.app/"
@@ -31,7 +30,6 @@ function App() {
           name="twitter:description"
           content="maitra is learning dsa and building cool stuff"
         />
-        <meta name="twitter:image" content="../public/maitra_learns_dsa.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <Routes>
