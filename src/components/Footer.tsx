@@ -7,7 +7,7 @@ export default function Footer() {
       <p>
         maitra likes practical stuff, here's the
         <a
-          href="http://"
+          href="https://github.com/maitrakhatri/dsa-practice"
           target="_blank"
           rel="noopener noreferrer"
           className="font-semibold cursor-pointer"
