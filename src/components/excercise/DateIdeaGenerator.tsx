@@ -210,7 +210,7 @@ export default function DateIdeaGenerator() {
               />
             </svg>
           )}
-          Plan my date Pink to Orange
+          Plan my date
         </button>
 
         <ol className="w-full space-y-4 flex flex-col items-start text-2xl">
