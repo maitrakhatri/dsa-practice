@@ -52,10 +52,10 @@ export default function DateIdeaGenerator() {
     ],
   ]);
 
-  const [type, setType] = useState<DateType>();
-  const [place, setPlace] = useState<string>();
-  const [gift, setGift] = useState<string>();
-  const [twist, setTwist] = useState<string>();
+  const [type, setType] = useState<DateType | null>();
+  const [place, setPlace] = useState<string | null>();
+  const [gift, setGift] = useState<string | null>();
+  const [twist, setTwist] = useState<string | null>();
   const [jobFailed, setJobFailed] = useState({
     failedStatus: false,
     message: "",
@@ -169,6 +169,10 @@ export default function DateIdeaGenerator() {
   };
 
   const generateDateType = () => {
+    setType(null);
+    setPlace(null);
+    setGift(null);
+    setTwist(null);
     return new Promise<void>((resolve) => {
       setTimeout(() => {
         const randomIndex = Math.floor(Math.random() * dateType.length);
